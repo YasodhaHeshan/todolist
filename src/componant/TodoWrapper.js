@@ -1,8 +1,10 @@
-//give me small code snippet of TodoWrapper.js
 import React from 'react';
+import { TodoForm } from './TodoForm';
 
 export const TodoWrapper = () => {
-    return(<div >TodoWrapper</div>) ;
-    }
-
-
+    return (
+        <div>
+            <TodoForm />
+        </div>
+    );
+}
